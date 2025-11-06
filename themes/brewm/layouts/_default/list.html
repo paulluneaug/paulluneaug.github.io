@@ -243,21 +243,6 @@
         aria-labelledby="{{ printf "title-%d" .counter }}"
         aria-describedby="{{ printf "desc-%d" .counter }}">
         <hgroup>
-            <div>
-                <time datetime="{{ .page.PublishDate.Format "2006-01-02T15:04:05-07:00" }}">{{- .PublishDate | time.Format ":date_long" -}}</time>
-                <span>
-                    {{- if .authors }}
-                        {{ partial "terms.html" (dict "taxonomy" "author" "type" "delimiter" "tabindex" "-1" "page" .page) }}
-                    {{- else }}
-                        {{- with .author }}<span>{{ . }}</span>{{ end }}
-                    {{- end }}
-                    {{- if .page.Params.categories }}
-                        <span>{{ i18n "in" | lower }}</span>
-                        {{ partial "terms.html" (dict "taxonomy" "categories" "type" "delimiter" "tabindex" "-1" "page" .page ) }}
-                    {{- end }}
-                </span>
-                <!-- hfill -->
-            </div>
             <a href="{{ .page.RelPermalink }}" class="sr0" tabindex="-1" aria-describedby="{{ printf "desc-%d" .counter }}">
                 <h1 id="{{ printf "title-%d" .counter }}">{{ .page.Title }}</h1>
             </a>
@@ -289,9 +274,6 @@
                     {{- end }}
                 {{- end }}
             {{- end }}
-            <span class="readingTime">
-                {{- printf "%d %s" .page.ReadingTime (i18n "readingTime" .page.ReadingTime | lower ) }}
-            </span>
             <!-- hfill -->
             {{- if .page.Params.tags }}
                     {{ partial "terms.html" (dict "taxonomy" "tags" "class" "rounded invert" "tabindex" "-1" "page" .page) }}
