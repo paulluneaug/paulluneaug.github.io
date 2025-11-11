@@ -1,7 +1,10 @@
-+++
-draft = true
-title = 'NeoMars XIII'
-+++
+---
+draft: true
+title: "NeoMars XIII"
+cover: /images/projects/covers/NeoMarsXIII.png
+alt: "NeoMars XIII cover"
+description: " "
+---
 
 ## About the game
 

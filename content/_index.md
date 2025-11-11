@@ -3,7 +3,8 @@ title: My site
 description: The thigns I am
 ---
 
-## Paul Luneau 
+## Paul Luneau
 
-[Portfolio](/portfolio)
+[Portfolio](/projects)
+
 [About](/about)

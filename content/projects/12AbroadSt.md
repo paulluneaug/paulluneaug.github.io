@@ -1,7 +1,9 @@
-+++
-draft = true
-title = '12 Abroad St.'
-description = "How to configure post discussion in Hugo Brewm theme"
-+++
+---
+draft: true
+title: '12 Abroad St.'
+cover: /images/projects/covers/12AbroadSt.jpg
+alt: "12 Abroad St. cover"
+description: " "
+---
 
 ## Links

@@ -1,7 +1,10 @@
-+++
-draft = true
-title = "OnionMan contre les nuggets de l'espace"
-+++
+---
+draft: true
+title: "OnionMan contre les nuggets de l'espace"
+cover: /images/projects/covers/OnionMan.png
+alt: "OnionMan contre les nuggets de l'espace cover"
+description: " "
+---
 
 
 ## Links

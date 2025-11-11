@@ -1,7 +1,10 @@
-+++
-draft = true
-title = 'Popo Deglingo'
-+++
+---
+draft: true
+title: "Popo Deglingo"
+cover: /images/projects/covers/PopoDeglingo.png
+alt: "Popo Deglingo cover"
+description: " "
+---
 
 ## Links
 

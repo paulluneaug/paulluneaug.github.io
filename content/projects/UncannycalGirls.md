@@ -1,7 +1,10 @@
-+++
-draft = true
-title = 'Uncannycal Girls'
-+++
+---
+draft: true
+title: "Uncannycal Girls"
+cover: /images/projects/covers/UncannycalGirls.png
+alt: "Uncannycal Girls cover"
+description: " "
+---
 
 ## Links
 

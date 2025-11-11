@@ -1,7 +1,10 @@
-+++
-draft = true
-title = 'A New Machinist'
-+++
+---
+draft: true
+title: "A New Machinist"
+cover: /images/projects/covers/ANewMachinist.png
+alt: "A New Machinist cover"
+description: " "
+---
 
 
 ## Links

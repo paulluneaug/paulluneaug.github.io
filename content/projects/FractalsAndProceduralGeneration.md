@@ -1,7 +1,10 @@
-+++
-draft = true
-title = 'Fractals and procedural Generation'
-+++
+---
+draft: true
+title: "Fractals and Procedural Generation"
+cover: /images/projects/covers/FractalsProceduralGeneration.jpg
+alt: "Fractals and Procedural Generation cover"
+description: " "
+---
 
 ## Links
 

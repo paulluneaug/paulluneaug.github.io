@@ -1,7 +1,10 @@
-+++
-draft = true
-title = 'SDF Physics'
-+++
+---
+draft: true
+title: "SDF Physics"
+cover: /images/projects/covers/SDFPhysics.jpg
+alt: "SDF Physics cover"
+description: " "
+---
 
 ## Links
 
