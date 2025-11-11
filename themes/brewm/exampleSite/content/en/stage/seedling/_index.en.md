@@ -1,4 +1,0 @@
----
-title: 'seedling'
-translationKey: seedling
----
