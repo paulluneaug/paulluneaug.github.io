@@ -1,7 +1,7 @@
 baseURL = 'https://paulluneaug.github.io/'
 languageCode = 'en-us'
 title = 'Paul Luneau'
-theme = 'brewmCustom'
+theme = 'blowfish'
 
 [caches]
   [caches.images]
@@ -22,3 +22,6 @@ theme = 'brewmCustom'
 
 [params.render_hooks.link]
 errorLevel = 'error' # ignore (default), warning, or error
+
+[params]
+  highlight = false
