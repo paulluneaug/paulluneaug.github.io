@@ -4,12 +4,21 @@ title: "A New Machinist"
 cover: /images/projects/covers/ANewMachinist.png
 alt: "A New Machinist cover"
 description: " "
+highlight: true
 ---
 
+## Pitch
+
+## Trailer
+
+{{< youtube yBrdwWxM35k >}}
 
 ## Links
 
 - [GitHub Repository](https://github.com/paulluneaug/HelpingHand)
+
+{{< github repo="paulluneaug/HelpingHand" showThumbnail=true >}}
+
 - [Itch.io](https://brs-t.itch.io/a-new-machinist)
 
 {{<rawhtml>}}

@@ -9,6 +9,9 @@ description: " "
 ## Links
 
 - [GitHub Repository](https://github.com/paulluneaug/Shaders_Fractal_Noise_and_ProceduralGeneration)
+
+{{< github repo="paulluneaug/Shaders_Fractal_Noise_and_ProceduralGeneration" showThumbnail=true >}}
+
 - [Itch.io](https://paulluneau.itch.io/fractals-and-procedural-generation)
 
 {{<rawhtml>}}

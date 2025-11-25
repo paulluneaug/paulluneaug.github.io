@@ -4,4 +4,6 @@ title: About
 
 ## About
 
-<!-- [Download resume](about/LuneauPaul_Resume.pdf) -->
+[Download resume](about/LuneauPaul_Resume_en.pdf)
+
+

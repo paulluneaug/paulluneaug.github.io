@@ -6,10 +6,24 @@ alt: "OnionMan contre les nuggets de l'espace cover"
 description: " "
 ---
 
+## Pitch
+
+OnionMan contre les nuggets de l'espace is a two-player cooperative shmup (shoot-'em-up) 
+
+## Technologies
+
+- Unreal
+- C++
+- Unity
+- C#
+- Network
 
 ## Links
 
 - [GitHub Repository](https://github.com/OnionMan-contre-les-nuggets-de-lespace/OnionMan-contre-les-nuggets-de-lespace)
+
+{{< github repo="OnionMan-contre-les-nuggets-de-lespace/OnionMan-contre-les-nuggets-de-lespace" showThumbnail=true >}}
+
 - [Itch.io](https://paulluneau.itch.io/onionman)
 
 {{<rawhtml>}}

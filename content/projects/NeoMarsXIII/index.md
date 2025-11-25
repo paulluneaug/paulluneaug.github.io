@@ -10,9 +10,16 @@ description: " "
 
 ## What I did
 
+## Trailer
+
+{{< youtube FXgUDHsNJBo >}}
+
 ## Links
 
 - [GitHub Repository](https://github.com/UbiHardInc/DripPetanque)
+
+{{< github repo="UbiHardInc/DripPetanque" showThumbnail=true >}}
+
 - [Itch.io](https://chatofor.itch.io/neomars13)
 
 {{<rawhtml>}}

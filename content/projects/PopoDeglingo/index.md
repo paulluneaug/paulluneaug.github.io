@@ -9,6 +9,9 @@ description: " "
 ## Links
 
 - [GitHub Repository](https://github.com/paulluneaug/PopoDeglingo)
+
+{{< github repo="paulluneaug/PopoDeglingo" showThumbnail=true >}}
+
 - [Itch.io](https://cybertoasty.itch.io/popo-deglingo)
 
 {{<rawhtml>}}
