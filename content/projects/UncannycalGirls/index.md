@@ -4,6 +4,8 @@ title: "Uncannycal Girls"
 cover: /images/projects/covers/UncannycalGirls.png
 alt: "Uncannycal Girls cover image with the game logo"
 description: " "
+tags: ['Unity', 'C#', 'Gameplay', 'Tools']
+publishDate: 2024-12-05
 ---
 
 ## Pitch
@@ -22,12 +24,16 @@ During this project, I mostly was in charge of the level structure, the enemy wa
 
 ## Links
 
-- [Itch.io](https://cybertoasty.itch.io/uncannycal-girls)
+{{< button href="https://cybertoasty.itch.io/uncannycal-girls">}}
+{{< icon "itchio" >}} Itch.io
+{{< /button >}}
 
 {{<rawhtml>}}
 <iframe frameborder="0" src="https://itch.io/embed/3168289?linkback=true&amp;dark=true" width="100%" height="167"><a href="https://cybertoasty.itch.io/uncannycal-girls">Uncannycal girls by CyberToasty, Ned, Léonard, homeofthegnome, Duchmolle, Paul Luneau, mou_mine, Pocketful Workshop, KORJATYPIK, asfrang</a></iframe>
 {{</rawhtml>}}
 
-- [GitHub Repository](https://github.com/paulluneaug/Nano_Equipe6)
+{{< button href="https://github.com/paulluneaug/Nano_Equipe6">}}
+{{< icon "github" >}} GitHub Repository
+{{< /button >}}
 
 {{< github repo="paulluneaug/Nano_Equipe6" showThumbnail=true >}}

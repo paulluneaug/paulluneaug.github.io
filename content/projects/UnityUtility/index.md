@@ -1,9 +1,12 @@
 ---
-draft: true
+draft: false
 title: "Unity Utility"
 cover: /images/projects/covers/UnityUtility.jpg
 alt: "Unity Utility cover"
-description: " "
+description: "dqzd"
+highlight: true
+tags: ['Unity', 'C#', 'Tools']
+publishDate: 2023-07-20
 ---
 
 ## Project Description
@@ -27,7 +30,8 @@ It also helps me in most of my other projets, removing some of the boilerplate a
 
 ## Links
 
-- [GitHub Repository](https://github.com/paulluneaug/UnityUtility)
+{{< button href="https://github.com/paulluneaug/UnityUtility">}}
+{{< icon "github" >}} GitHub Repository
+{{< /button >}}
 
 {{< github repo="paulluneaug/UnityUtility" showThumbnail=true >}}
-

@@ -3,8 +3,14 @@ title: My site
 description: The thigns I am
 ---
 
-[Portfolio](/projects)
+Hi ! 
 
-[About](/about)
+{{< button href="/about">}}
+More about me
+{{< /button >}}
 
-{{< list title="Highlights" cardView=true limit=6  where=".Params.highlight" value=true >}}
+{{< list title="Highlighted projects" cardView=true limit=6  where=".Params.highlight" value=true >}}
+
+{{< button href="/projects">}}
+See more
+{{< /button >}}

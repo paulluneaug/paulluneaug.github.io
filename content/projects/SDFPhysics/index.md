@@ -5,6 +5,8 @@ cover: /images/projects/covers/SDFPhysics.jpg
 alt: "SDF Physics cover"
 description: " "
 highlight: true
+tags: ['C++', 'CMake', 'SFML', 'ImGui', 'Physics and collisions']
+publishDate: 2025-07-15
 ---
 
 ## Project description
@@ -20,8 +22,12 @@ SDF Physics is the support I developped to illustrate a dissertation I made abou
 
 ## Links
 
-- [The disseration](projects/SDFPhysics/SDFPhysics_Dissertation_FR.pdf) (in French)
+{{< button href="projects/SDFPhysics/SDFPhysics_Dissertation_FR.pdf">}}
+{{< icon "download" >}} Download the dissertation (in French)
+{{< /button >}}
 
-- [GitHub Repository](https://github.com/paulluneaug/SDFPhysics)
+{{< button href="https://github.com/paulluneaug/SDFPhysics">}}
+{{< icon "github" >}} GitHub Repository
+{{< /button >}}
 
 {{< github repo="paulluneaug/SDFPhysics" showThumbnail=true >}}
