@@ -19,6 +19,5 @@ publishDate: 2025-10-01
 
 - C#
 - Unity
-- Yarn Spinner ?
 
 ## Links
