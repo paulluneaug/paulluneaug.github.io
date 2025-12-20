@@ -14,9 +14,22 @@ Uncannycal Girls is a two-player cooperative shmup (shoot-'em-up). Each player t
 
 The game is a school project and was made with a team of 10 in about a week.
 
-## My contribution
+## Technical overview
 
 During this project, I mostly was in charge of the level structure, the enemy wave system, and a tool to allow the game designers to edit the levels easily.
+
+## The team
+
+- **Baptiste DENIS** - Programmer
+- **Victor DE SENNEVILLE** - Project manager
+- **Thimothée DRUGEON** - Game & Level designer
+- **Maïa ESQUERRE** - Charadesigner, 2D & VFX artist 
+- **Moumine KONATE** - UR/UX/UI designer
+- **Luna KORJANEVSKI** - UI & Background artist
+- **Paul LUNEAU** - Programmer 
+- **Sacha MENDY** - Game & Level designer
+- **Capucine TABLEAU** - 2D artist & Animator
+- **Léonard TAMAS** - Sound designer & Composer
 
 ## Trailer
 

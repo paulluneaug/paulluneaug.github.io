@@ -13,7 +13,7 @@ publishDate: 2025-03-01
 
 ## Presentation
 
-A New Machinist is a game we created as a **team of seven** as part of our **final project** for our first year of master's degree.
+A New Machinist is a game we created as a **team of eight** plus the help of two as part of our **final project** for our first year of master's degree.
 
 In this game, you play the role of a puppeteer candidate at a puppet theatre. Learn how to use your console to control the stage and follow the director's instructions or improvise based on the elements you give him.
 
@@ -23,15 +23,15 @@ The original experience is played with a **physical console** that we built. It 
 
 ## Technical overview
 
-For this project, I :
+For this project, I was in charge of :
 
-- Crafted the console and interfaced it with Unity
-- Programmed the UI and some of the gameplay
-- Helped implementing the dialogue and act integration tool
+- Crafting the console and interfacing it with Unity
+- Programming the UI and some of the gameplay elements
+- Helping to implement the dialogue and act integration tool
 
 ### Languages used
 
-This project was created using Unity and therefore used C# as well as C++ and C for the Arduino code.
+This project was created using **Unity** and therefore used **C#** as well as **C++** and **C** for the Arduino code.
 
 ### The console
 
@@ -42,6 +42,19 @@ One of the main challenge in this project was to craft from scratch a working co
 The finished console works quite well thanks to the time I put into it, but I hope I never have to fix the mess underneath.
 
 ![ConsoleBottom](images/Console_Bottom.jpg)
+
+## The team
+
+- **Tanguy BRUSCHI** - Sound Designer & Composer
+- **Edouard CHAANG** - Additional Programming
+- **Justine DESMEDT** - Game Designer, Narrative Designer & Writer
+- **Matthieu GOLSENNE** - Game Designer, Narrative Designer, Additional Writing & Additional Programming
+- **Tom JAMGOTCHIAN** - Voice Actor
+- **Paul LUNEAU** - Programmer
+- **Gensana MANCEAU** - Producer & Additional Writing
+- **Daphné RENAULD** - Texture Artist
+- **Gabin ROHDE** - Game Artist
+- **Natanael ROSSIGNOL** - Game Artist
 
 ## Trailer
 

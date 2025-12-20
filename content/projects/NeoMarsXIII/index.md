@@ -5,12 +5,22 @@ cover: /images/projects/covers/NeoMarsXIII.png
 alt: "NeoMars XIII cover"
 description: " "
 tags: ['Unity', 'C#', 'HLSL', 'Gameplay', 'Shaders']
-publishDate: 2023-09-15
+publishDate: 2024-01-01
 ---
 
 ## About the game
 
-## What I did
+## Technical overview
+
+## The team
+
+- **Yannis ARIBOT** - 3D & VFX artist
+- **Florent BASCOUL** - Game designer
+- **Jordan BURNET** - UI artist & Sound designer
+- **Victor DE SENNEVILLE** - Project manager
+- **Paul LUNEAU** - Programmer
+- **Joris PINEDA** - Game & Level designer
+- **Élodie PRUDENT** - Narrative designer
 
 ## Trailer
 

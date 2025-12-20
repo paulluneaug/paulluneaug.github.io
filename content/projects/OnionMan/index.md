@@ -21,18 +21,29 @@ It is a two-player asymetric cooperative game where one of the player plays a sh
 
 ## Technical overview
 
-For this project, I :
+For this project, I was in charge of :
 
-- Built a custom Unity - Unreal Engine network protocol
-- Created an Unreal Engine editor tool to help level design
+- Buildind a custom Unity - Unreal Engine network protocol
+- Creating an Unreal Engine editor tool to help level design
 
 ### Languages used
 
-This project was created using Unity and Uneal Engine and therefore used C# and C++.
+This project was created using **Unity** and **Uneal Engine** and therefore used **C#** and **C++**.
 
 ### The Network protocol
 
 For this project I wanted to learn more about network so I decided to make my own custom protocol, building the packets byte per byte.
+
+Retrospectively, I'm not sure it was the best idea to start from scratch given the time and constraints we had but I had fun and I learned a lot making it.
+
+## The team
+
+- **Yannis ARIBOT** - 3D & Tech artist
+- **Florent BASCOUL** - Game designer
+- **Léo CEELEE** - Composer
+- **Victor DE SENNEVILLE** - Project manager
+- **Paul LUNEAU** - Programmer
+- **Élodie PRUDENT** - Narrative designer
 
 ## Links
 

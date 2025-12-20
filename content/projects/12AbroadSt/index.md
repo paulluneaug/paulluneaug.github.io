@@ -15,6 +15,22 @@ publishDate: 2025-10-01
 
 ## My contribution
 
+## The team
+
+- **Victor DE SENNEVILLE** - Project manager
+- **Jules QUIRIN** - Sound designer
+- **Paul LUNEAU** - Programmer 
+- **Matéo AVVENTURIERO** - Programmer 
+- **Moumine KONATE** - UR/UX/UI designer
+- **Luna KORJANEVSKI** - UI & 2D artist
+- **Amandine KLINGER** - 3D & Tech artist
+- **Gabriele ENNAOUAJI** - 2D & concept artist
+- **Tom JAMGOTCHIAN** - System designer
+- **Léa DANTEC** - Narrative designer
+
+
+
+
 ## Tools
 
 - C#
