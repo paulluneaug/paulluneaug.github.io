@@ -28,16 +28,20 @@ publishDate: 2024-01-01
 
 ## Links
 
-{{< button href="https://chatofor.itch.io/neomars13">}}
+{{< button href="https://chatofor.itch.io/neomars13" target="_blank">}}
 {{< icon "itchio" >}} Itch.io
 {{< /button >}}
 
-{{<rawhtml>}}
-<iframe frameborder="0" src="https://itch.io/embed/2768951?linkback=true&amp;dark=true" width="100%" height="167"><a href="https://chatofor.itch.io/neomars13">NEOMARS XIII by Chatofor, Duchmolle, Nihilaeth, JorisP, Paul Luneau, Hati02</a></iframe>
-{{</rawhtml>}}
+{{< empty-p >}}
 
-{{< button href="https://github.com/UbiHardInc/DripPetanque">}}
+{{< itchio id="2768951" linkback="true" dark="true" >}}
+
+{{< empty-p >}}
+
+{{< button href="https://github.com/UbiHardInc/DripPetanque" target="_blank">}}
 {{< icon "github" >}} GitHub Repository
 {{< /button >}}
 
-{{< github repo="UbiHardInc/DripPetanque" showThumbnail=true >}}
+{{< empty-p >}}
+
+{{< github repo="UbiHardInc/DripPetanque" showThumbnail=false >}}

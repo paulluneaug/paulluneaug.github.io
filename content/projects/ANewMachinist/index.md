@@ -35,13 +35,18 @@ This project was created using **Unity** and therefore used **C#** as well as **
 
 ### The console
 
-![Console](images/Console.jpg)
+![A picture of the console](images/Console.jpg)
 
-One of the main challenge in this project was to craft from scratch a working console and to connect it with Unity as I had little experience with elecronics.
+One of the main challenge in this project was to craft from scratch a working console and to connect it with Unity as I had very little experience with elecronics and never had to use that many components.
+
+The whole circuit is built arround an [**Arduino Due board**](https://docs.arduino.cc/hardware/due/) that has 66 pins for us to use, a lot more than the average Arduino. Still, it wasn't quite enough for all the components we wanted to control so I had to make a clever usage of **multiplexers** to be able to connect even more components.
+
+I had also did not anticipate that **power would become an issue** (for the LEDs especially) as my previous projects were a lot smaller and the board could easily power all the components on its own. {{< br >}}
+For this project, the board does not power any LED but instead controls **transisors** that let the current of an **external power source** flow. 
 
 The finished console works quite well thanks to the time I put into it, but I hope I never have to fix the mess underneath.
 
-![ConsoleBottom](images/Console_Bottom.jpg)
+![A picture of the bottom of the box, with wires everywhere](images/Console_Bottom.jpg)
 
 ## The team
 
@@ -62,16 +67,20 @@ The finished console works quite well thanks to the time I put into it, but I ho
 
 ## Links
 
-{{< button href="https://brs-t.itch.io/a-new-machinist">}}
+{{< button href="https://brs-t.itch.io/a-new-machinist" target="_blank">}}
 {{< icon "itchio" >}} Itch.io
-{{< /button >}}<br>
+{{< /button >}}
 
-{{<rawhtml>}}
-<iframe frameborder="0" src="https://itch.io/embed/3654109?linkback=true&amp;dark=true" width="100%" height="167"><a href="https://brs-t.itch.io/a-new-machinist">A New Machinist by BRST, DaphneRld, GensanaMcn, EllundrilCha, ReNyx, Matthieu "Marsheleene" Golsenne, GabinRohde, Paul Luneau</a></iframe>
-{{</rawhtml>}}<br>
+{{< empty-p >}}
 
-{{< button href="https://github.com/paulluneaug/HelpingHand">}}
+{{< itchio id="3654109" linkback="true" dark="true" >}}
+
+{{< empty-p >}}
+
+{{< button href="https://github.com/paulluneaug/HelpingHand" target="_blank">}}
 {{< icon "github" >}} GitHub Repository
-{{< /button >}}<br>
+{{< /button >}}
 
-{{< github repo="paulluneaug/HelpingHand" showThumbnail=true >}}
+{{< empty-p >}}
+
+{{< github repo="paulluneaug/HelpingHand" showThumbnail=false >}}

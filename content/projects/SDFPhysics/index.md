@@ -11,7 +11,13 @@ publishDate: 2025-07-15
 
 ## Project description
 
-SDF Physics is the support I developped to illustrate a dissertation I made about Signed Distance Fields (SDFs) and the ways we can detect overlaps between SDFs and points, SDFs and triangles and SDFs and other SDFs.
+SDF Physics is the support I developped to illustrate and test algorithms for a dissertation I made at the end af my first year of JMIN master's degree about [Signed Distance Fields](https://en.wikipedia.org/wiki/Signed_distance_function) (SDFs).
+
+The main goal was to try to detect overlaps between :
+
+- SDFs and points and circles
+- SDFs and triangles
+- SDFs and other SDFs.
 
 ![Trigangle GradientDescent](assets/Trigangle_GradientDescent.png)
 
@@ -19,7 +25,7 @@ SDF Physics is the support I developped to illustrate a dissertation I made abou
 
 ### Languages and tools used
 
-For this project, I used the C++ library SMFL as well as ImGui as a simple UI and CMake.
+For this project, I used the C++ library **SMFL** as well as **ImGui** and **CMake**.
 
 ### What I learned
 
@@ -31,12 +37,16 @@ Thanks to this project I got to learn :
 
 ## Links
 
-{{< button href="SDFPhysics_Dissertation_FR.pdf">}}
+{{< button href="SDFPhysics_Dissertation_FR.pdf" target="_blank">}}
 {{< icon "download" >}} Download the dissertation (in French)
-{{< /button >}} <br>
+{{< /button >}}
 
-{{< button href="https://github.com/paulluneaug/SDFPhysics">}}
+{{< empty-p >}}
+
+{{< button href="https://github.com/paulluneaug/SDFPhysics" target="_blank">}}
 {{< icon "github" >}} GitHub Repository
-{{< /button >}} <br>
+{{< /button >}}
 
-{{< github repo="paulluneaug/SDFPhysics" showThumbnail=true >}}
+{{< empty-p >}}
+
+{{< github repo="paulluneaug/SDFPhysics" showThumbnail=false >}}

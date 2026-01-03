@@ -23,16 +23,18 @@ It is a two-player asymetric cooperative game where one of the player plays a sh
 
 For this project, I was in charge of :
 
-- Buildind a custom Unity - Unreal Engine network protocol
+- Building a custom Unity - Unreal Engine network protocol
 - Creating an Unreal Engine editor tool to help level design
 
 ### Languages used
 
-This project was created using **Unity** and **Uneal Engine** and therefore used **C#** and **C++**.
+This project was created using **Unity** and **Uneal Engine** and therefore used **C#**, **C++** and **Unreal's Blueprints**.
 
 ### The Network protocol
 
-For this project I wanted to learn more about network so I decided to make my own custom protocol, building the packets byte per byte.
+For this project I wanted to learn more about network so I decided to make my own custom protocol. It works be synchronizing variables between the two engines via TCP. 
+
+Whenever changed, the synchonized variales values are encoded and sent to the other engine. The protocol is simple and does not feature more advanced techniques like anticipation or any kind of network security as it wasn't really neccessary for our usage.
 
 Retrospectively, I'm not sure it was the best idea to start from scratch given the time and constraints we had but I had fun and I learned a lot making it.
 
@@ -41,22 +43,26 @@ Retrospectively, I'm not sure it was the best idea to start from scratch given t
 - **Yannis ARIBOT** - 3D & Tech artist
 - **Florent BASCOUL** - Game designer
 - **Léo CEELEE** - Composer
-- **Victor DE SENNEVILLE** - Project manager
+- **Victor DE SENNEVILLE** - Project manager & programmer
 - **Paul LUNEAU** - Programmer
 - **Élodie PRUDENT** - Narrative designer
 
 ## Links
 
-{{< button href="https://paulluneau.itch.io/onionman">}}
+{{< button href="https://paulluneau.itch.io/onionman" target="_blank">}}
 {{< icon "itchio" >}} Itch.io
-{{< /button >}}<br>
+{{< /button >}}
 
-{{<rawhtml>}}
-<iframe frameborder="0" src="https://itch.io/embed/2455869?linkback=true&amp;dark=true" width="100%" height="167"><a href="https://paulluneau.itch.io/onionman">OnionMan contre les nuggets de l'espace by Paul Luneau</a></iframe>
-{{</rawhtml>}}<br>
+{{< empty-p >}}
 
-{{< button href="https://github.com/OnionMan-contre-les-nuggets-de-lespace/OnionMan-contre-les-nuggets-de-lespace">}}
+{{< itchio id="2455869" linkback="true" dark="true" >}}
+
+{{< empty-p >}}
+
+{{< button href="https://github.com/OnionMan-contre-les-nuggets-de-lespace/OnionMan-contre-les-nuggets-de-lespace" target="_blank">}}
 {{< icon "github" >}} GitHub Repository
-{{< /button >}}<br>
+{{< /button >}}
 
-{{< github repo="OnionMan-contre-les-nuggets-de-lespace/OnionMan-contre-les-nuggets-de-lespace" showThumbnail=true >}}
+{{< empty-p >}}
+
+{{< github repo="OnionMan-contre-les-nuggets-de-lespace/OnionMan-contre-les-nuggets-de-lespace" showThumbnail=false >}}

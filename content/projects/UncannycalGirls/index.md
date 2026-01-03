@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 title: "Uncannycal Girls"
 cover: /images/projects/covers/UncannycalGirls.png
 alt: "Uncannycal Girls cover image with the game logo"
@@ -10,13 +10,60 @@ publishDate: 2024-12-05
 
 ## Pitch
 
-Uncannycal Girls is a two-player cooperative shmup (shoot-'em-up). Each player takes control of a magical-girl-like angel tasked with defeating a visibly hostile fleet of spaceships.
+Uncannycal Girls is a **two-player cooperative shmup** (shoot-'em-up). Each player takes control of a magical-girl-like angel tasked with defeating a visibly hostile fleet of spaceships.
+
+![Image of gameplay with two players facing small alien](images/gameplay_0.png)
+
+Players will be able to **join their forces and fuse**, transforming into a nightmarish form with sinister implications to overcome the toughest enemies...
+
+![Image of gameplay with the two players fused into a nightmarish angel](images/gameplay_1.png)
 
 The game is a school project and was made with a team of 10 in about a week.
 
+![Image of gameplay](images/gameplay_2.png)
+
 ## Technical overview
 
+### Languages and tools used
+
+This project was made using **Unity**.
+
+### My contribution to the project
+
 During this project, I mostly was in charge of the level structure, the enemy wave system, and a tool to allow the game designers to edit the levels easily.
+
+### Level structure
+
+The **level** is divided into successive **waves**, each containing several **events** that are triggered at specific times. {{< br >}}
+Those events can : 
+
+- Spawn enemies or obstacles
+- Enable or disable GameObjects
+- Display UI for a given time
+
+In theory, they could do anything, but we didn't need anything else for this project.
+
+{{< figure
+  src="images/inspector_level.png"
+  alt="A screenshot of the Unity inspector, showing the level class inspector"
+  caption="The level inspector"
+  class="grid-w66" >}}
+
+{{< figure
+  src="images/inspector_level.png"
+  alt="A screenshot of the Unity inspector, showing the level class inspector"
+  caption="The level inspector"
+  class="grid-w66" >}}
+
+{{< figure
+  src="images/inspector_level.png"
+  alt="A screenshot of the Unity inspector, showing the level class inspector"
+  caption="The level inspector"
+  class="grid-w66" >}}
+
+### Level design tool
+
+At this stage, the moment when events are triggered is just a variable in the inspector representing the time elapsed since the start of the wave. This makes it difficult to **synchronise multiple events**, a crucial feature in a shoot-'em-up. That's why, despite the limited time available for the project, we took the time to develop a level design tool to help us.
 
 ## The team
 
@@ -37,16 +84,20 @@ During this project, I mostly was in charge of the level structure, the enemy wa
 
 ## Links
 
-{{< button href="https://cybertoasty.itch.io/uncannycal-girls">}}
+{{< button href="https://cybertoasty.itch.io/uncannycal-girls" target="_blank">}}
 {{< icon "itchio" >}} Itch.io
 {{< /button >}}
 
-{{<rawhtml>}}
-<iframe frameborder="0" src="https://itch.io/embed/3168289?linkback=true&amp;dark=true" width="100%" height="167"><a href="https://cybertoasty.itch.io/uncannycal-girls">Uncannycal girls by CyberToasty, Ned, Léonard, homeofthegnome, Duchmolle, Paul Luneau, mou_mine, Pocketful Workshop, KORJATYPIK, asfrang</a></iframe>
-{{</rawhtml>}}
+{{< empty-p >}}
 
-{{< button href="https://github.com/paulluneaug/Nano_Equipe6">}}
+{{< itchio id="3168289" linkback="true" dark="true" >}}
+
+{{< empty-p >}}
+
+{{< button href="https://github.com/paulluneaug/Nano_Equipe6" target="_blank">}}
 {{< icon "github" >}} GitHub Repository
 {{< /button >}}
 
-{{< github repo="paulluneaug/Nano_Equipe6" showThumbnail=true >}}
+{{< empty-p >}}
+
+{{< github repo="paulluneaug/Nano_Equipe6" showThumbnail=false >}}

@@ -1,0 +1,26 @@
+{{- if .IsNamedParams -}}
+  {{- $.Scratch.Set "id"  (.Get "id") -}}
+  {{- $.Scratch.Set "linkback"  (.Get "linkback") -}}
+  {{- $.Scratch.Set "dark"  (.Get "dark") -}}
+  {{- $.Scratch.Set "customStyle"  (.Get "customStyle") -}}
+{{- end -}}
+{{- $.Scratch.Set "url" (printf "https://itch.io/embed/%s" ($.Scratch.Get "id")) -}}
+{{- if (eq ($.Scratch.Get "linkback") "true") -}}
+  {{- $.Scratch.Set "url" (printf "%s?linkback=true" ($.Scratch.Get "url")) -}}
+{{- end -}}
+{{- if (eq ($.Scratch.Get "dark") "true") -}}
+  {{- if strings.HasSuffix ($.Scratch.Get "url") "?linkback=true" -}}
+    {{- $.Scratch.Set "url" (printf "%s&dark=true" ($.Scratch.Get "url")) -}}
+  {{- else -}}
+    {{- $.Scratch.Set "url" (printf "%s?dark=true" ($.Scratch.Get "url")) -}}
+  {{- end -}}
+{{- end -}}
+{{- if (ne ($.Scratch.Get "customStyle") "") -}}
+  {{- $.Scratch.Set "url" (printf "%s&%s" ($.Scratch.Get "url") ($.Scratch.Get "customStyle")) -}}
+{{- end -}}
+
+<iframe frameborder="0"
+        src="{{ $.Scratch.Get "url" }}"
+        width="100%"
+        height="167">
+</iframe>

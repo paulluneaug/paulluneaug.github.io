@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 title: "Popo Deglingo"
 cover: /images/projects/covers/PopoDeglingo.png
 alt: "Popo Deglingo cover"
@@ -7,6 +7,33 @@ description: " "
 tags: ['Unity', 'C#', 'Arduino', 'Electronics']
 publishDate: 2025-09-02
 ---
+
+## Pitch 
+
+Popo Deglingo was a temporary physical installation set for an accessibility workshop. We were tasked with making a game playable by visualy impared people, and this is what we made :
+
+![Picture of the installation](images/installation.jpg)
+
+In Popo Delingo you play as an aspiring alchimist taking care of their master's shop during their absence, which mean receiving clients and preparing the potions they are asking.
+
+![Picture of the screen with the grimoire](images/grimoire.jpg)
+
+When asked for making a potion you can check its recipee in your grimory, giving you clues about its ingredients, which can be how they smell, or how the recipient their in feel when touched.
+
+![Picture of all the textured bottles](images/bottles.jpg)
+
+Then you have to pickup the right ingredients, each potion being composed of three of the twelve available. Place them on the pedestals in front of the client to validate the potion, before receiving your next client.
+
+![Drawing of a customer](images/customer.png)
+
+The goal is to satisfy the most clients possible in 5 minutes, after which the game end, your master coming back home.
+
+## Technical overview
+
+To allow the bottles to be recognized by the game, we stuck **NFC tags** at the bottom of the bottles that could be identified by **NFC readers** in the pedestals.
+Those readers were controlled by **Arduino Uno boards** that then sent datas using a **custom protocol** to a computer running the game on **Unity**.
+
+For this project, I was tasked with interfacing the Arduino boards to Unity and helping make the NFC readers work.
 
 ## The team
 
@@ -23,16 +50,20 @@ publishDate: 2025-09-02
 
 ## Links
 
-{{< button href="https://cybertoasty.itch.io/popo-deglingo">}}
+{{< button href="https://cybertoasty.itch.io/popo-deglingo" target="_blank">}}
 {{< icon "itchio" >}} Itch.io
-{{< /button >}}<br>
+{{< /button >}}
 
-{{<rawhtml>}}
-<iframe frameborder="0" src="https://itch.io/embed/3916586?linkback=true&amp;dark=true" width="100%" height="167"><a href="https://cybertoasty.itch.io/popo-deglingo">Popo deglingo by CyberToasty, madeleine :), Arthur ALAIN, Léonard, Jade.Bruneau, diamys, Paul Luneau</a></iframe>
-{{</rawhtml>}}<br>
+{{< empty-p >}}
 
-{{< button href="https://github.com/paulluneaug/PopoDeglingo">}}
+{{< itchio id="3916586" linkback="true" dark="true" >}}
+
+{{< empty-p >}}
+
+{{< button href="https://github.com/paulluneaug/PopoDeglingo" target="_blank">}}
 {{< icon "github" >}} GitHub Repository
-{{< /button >}}<br>
+{{< /button >}}
 
-{{< github repo="paulluneaug/PopoDeglingo" showThumbnail=true >}}
+{{< empty-p >}}
+
+{{< github repo="paulluneaug/PopoDeglingo" showThumbnail=false >}}

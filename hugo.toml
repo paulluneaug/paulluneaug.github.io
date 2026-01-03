@@ -25,3 +25,4 @@ errorLevel = 'error' # ignore (default), warning, or error
 
 [params]
   highlight = false
+  custom_css = ["css/custom.css"]
