@@ -24,3 +24,8 @@
   name = "Itchio"
   url = "https://paulluneau.itch.io/"
   weight = 40
+
+[[main]]
+  name = "Tags"
+  url = "/tags"
+  weight = 50
