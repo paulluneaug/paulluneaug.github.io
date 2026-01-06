@@ -1,6 +1,5 @@
 ---
-title: My site
-description: The thigns I am
+menu: "main"
 ---
 
 Hi ! I'm a Gameplay and Engine programmer studying at CNAM ENJMIN in France.

@@ -43,27 +43,17 @@ Those events can :
 
 In theory, they could do anything, but we didn't need anything else for this project.
 
-{{< figure
-  src="images/inspector_level.png"
-  alt="A screenshot of the Unity inspector, showing the level class inspector"
-  caption="The level inspector"
-  class="grid-w66" >}}
-
-{{< figure
-  src="images/inspector_level.png"
-  alt="A screenshot of the Unity inspector, showing the level class inspector"
-  caption="The level inspector"
-  class="grid-w66" >}}
-
-{{< figure
-  src="images/inspector_level.png"
-  alt="A screenshot of the Unity inspector, showing the level class inspector"
-  caption="The level inspector"
-  class="grid-w66" >}}
-
 ### Level design tool
 
 At this stage, the moment when events are triggered is just a variable in the inspector representing the time elapsed since the start of the wave. This makes it difficult to **synchronise multiple events**, a crucial feature in a shoot-'em-up. That's why, despite the limited time available for the project, we took the time to develop a level design tool to help us.
+
+The tool allowed us to load a wave, move the spawned enemies and obstacles, visualize the moment when the events will trigger and so on.
+
+{{< figure
+    src="images/editor_wave.png"
+    alt="Screenshot of the Unity editor, with a wave loaded"
+    caption="View of the tool in the editor"
+    >}}
 
 ## The team
 
