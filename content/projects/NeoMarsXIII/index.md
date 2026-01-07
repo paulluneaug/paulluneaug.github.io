@@ -8,9 +8,31 @@ tags: ['Unity', 'C#', 'HLSL', 'Gameplay', 'Shaders']
 publishDate: 2024-01-01
 ---
 
+### Overview
+
+**Platform :** PC {{< br >}}
+**Duration :** 6 months {{< br >}}
+**Team size :** 7 {{< br >}}
+**Role :** System & Gameplay Programmer
+
 ## About the game
 
 ## Technical overview
+
+My duties were :
+
+- Proposing and enforcing coding standards to ensure consistency in the source code
+- Reviewing code and pull requests on Git to make sure the project stays clean
+
+### Opponent player
+
+
+{{< figure
+    src="images/spline_aim.gif"
+    alt="Gif of a point moving and a spline following it"
+    class="width-100"
+    containerClass="width-60 center-img"
+    >}}
 
 ## The team
 

@@ -1466,7 +1466,7 @@ body.zen-mode-enable {
     max-width: 100%;
   }
   .max-w-prose {
-    max-width: 65ch;
+    max-width: 80%;
   }
   .max-w-xl {
     max-width: var(--container-xl);

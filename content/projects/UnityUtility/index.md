@@ -8,6 +8,13 @@ tags: ['Unity', 'C#', 'Tools']
 publishDate: 2023-07-20
 ---
 
+### Overview
+
+**Platform :** PC {{< br >}}
+**Duration :**  2023 - onegoing {{< br >}}
+**Team size :** 1 {{< br >}}
+**Role :** Tool Programmer
+
 ## Project Description
 
 UnityUtility is a package containing collection of tools and utility functions for Unity. {{< br >}}
@@ -15,7 +22,7 @@ I started this project in 2023 and keep adding features in parallel with the oth
 
 It mainly contains :
 
-- Some attributes, inspired by [Odin](https://odininspector.com/) to customize the inspector
+- Many attributes, inspired by [Odin Inspector](https://odininspector.com/), to customize the inspector
 - Extension methods
 - Pools
 - Serializable dictionary

@@ -1,30 +1,32 @@
 ---
 draft: false
 title: "OnionMan"
-cover: /images/projects/covers/OnionMan.png
-alt: "OnionMan cover"
-
-description: " "
 highlight: true
 tags: ['Unreal Engine', 'C++', 'Unity', 'C#', 'Network', 'Gameplay', 'Tools']
 publishDate: 2022-11-01
 
 ---
 
-## Pitch
+### Overview
+
+**Platform :** PC and mobile {{< br >}}
+**Duration :** 6 months {{< br >}}
+**Team size :** 6 {{< br >}}
+**Role :** Network, Gameplay & Tool Programmer
 
 ## Presentation
 
-OnionMan is a game we created as a **team of five** (plus the help of a composer) as part of our **final project** for our second year of bachelor's degree.
-
-It is a two-player asymetric cooperative game where one of the player plays a shoot-'em-up on desktop while the other plays a management game whose gameplay is inspired by [FAR: Lone Sails](https://store.steampowered.com/app/609320/FAR_Lone_Sails/) on their mobile.
+OnionMan is a two-player asymetric cooperative game where one of the player plays a shoot-'em-up on desktop while the other plays a management game whose gameplay is inspired by [FAR: Lone Sails](https://store.steampowered.com/app/609320/FAR_Lone_Sails/) on their mobile.
 
 ## Technical overview
 
-For this project, I was in charge of :
+For this project, my duties were :
 
-- Building a custom Unity - Unreal Engine network protocol
-- Creating an Unreal Engine editor tool to help level design
+- Building a custom **Unity - Unreal Engine network protocol**
+- Designing the level architecture to make it flexible and expandable
+- Creating an Unreal Engine editor **tool to help level design**
+- Implementing the enemies and boss behaviour
+- Creating simple VXFs using Niagara
 
 ### Languages used
 
@@ -32,7 +34,7 @@ This project was created using **Unity** and **Uneal Engine** and therefore used
 
 ### The Network protocol
 
-For this project I wanted to learn more about network so I decided to make my own custom protocol. It works be synchronizing variables between the two engines via TCP. 
+For this project I wanted to learn more about network so I decided to make my own custom protocol. It works be synchronizing variables between the two engines via TCP.
 
 Whenever changed, the synchonized variales values are encoded and sent to the other engine. The protocol is simple and does not feature more advanced techniques like anticipation or any kind of network security as it wasn't really neccessary for our usage.
 

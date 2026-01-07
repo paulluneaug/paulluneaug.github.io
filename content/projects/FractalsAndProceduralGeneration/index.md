@@ -9,6 +9,13 @@ publishDate: 2023-08-10
 highlight: true
 ---
 
+### Overview
+
+**Platform :** PC {{< br >}}
+**Duration :** 7 months {{< br >}}
+**Team size :** 1 {{< br >}}
+**Role :** System & Tools Programmer, Tech Artist
+
 ## Project description
 
 *Fractals and Procedural Generation* is a project I made first to learn to write my fist shaders in HLSL by implementing a Julia's fractal renderer. But I quickly became more and more interested in the subject so I stated to implement an infinite procedural world using Perlin noise and the marching cube algorithm
@@ -19,9 +26,7 @@ highlight: true
 
 This project was made using Unity and used a lot of **HLSL** for both **compute shaders** and **fragment shaders** as well as **C#**.
 
-During the project I also had the opportunity to used some more advanced C# and Unity features like **unmanaged memory**, **pointers** and Unity's **Jobs system**.
-
-### Julia's fractal renderer
+During the project I also had the opportunity to use some more advanced C# and Unity features like **unmanaged memory**, **pointers** and Unity's **Jobs system**.
 
 ### Marching cube
 
@@ -30,11 +35,21 @@ For this part of the project, I implemented :
 - A **3D perlin noise generator** in HLSL
 - A **marching cube generator** capable of generating an infinite world and grouping cells into chunks with a mix of HLSL and C#
 
-![A screenshot of the game with a submarine in a subarine cave like environment](images/chunk.png)
+{{< figure
+    src="images/chunk.png"
+    alt="A screenshot of the game with a submarine in a subarine cave like environment"
+    class="width-100"
+    containerClass="width-60 center-img"
+    >}}
 
 The result kinda looked like an underwater cave system, so I modelled a simple submarine in Blender to make it look somewhat like a game.
 
-![A screenshot of the game with a submarine in a subarine cave like environment](images/submarine.png)
+{{< figure
+    src="images/submarine.png"
+    alt="A screenshot of the game with a submarine in a subarine cave like environment"
+    class="width-100"
+    containerClass="width-60 center-img"
+    >}}
 
 #### Optimizations
 
@@ -44,7 +59,8 @@ Indeed, when 2 neighbouring cells are generated, the vertices they're supposed t
 {{< figure
     src="images/duplicate_vertices.svg"
     alt="Illustration of 2 cells, sharing duplicate vertices"
-    class="grid-w100"
+    class="width-100"
+    containerClass="width-60 center-img"
     caption="Two neighbouring cells share vertices but they are duplicated, one in each cube"
     >}}
 
@@ -54,8 +70,9 @@ To do so, we can simply not create vertices if they belong to the edges around t
 {{< figure
     src="images/vertices_optimization.svg"
     alt="Illustration of the way we can reduce the number of vertices by only creating some of them, arrond the origin of the cell"
-    class="grid-w100"
-    caption="For a given cell, we only create the vertices arround the origin (the solid colored one) : the rest will be taken care by the neighbouring cells"
+    class="width-100"
+    containerClass="width-60 center-img"
+    caption="For a given cell, we only create the vertices arround the origin (the solid colored ones) : the rest will be taken care by the neighbouring cells"
     >}}
 
 

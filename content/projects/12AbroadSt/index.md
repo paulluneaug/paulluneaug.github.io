@@ -9,15 +9,36 @@ tags: ['Unity', 'C#', 'HLSL', 'UI', 'Shaders', 'Compute Shaders', 'Tools']
 publishDate: 2025-10-01
 ---
 
+### Overview
+
+**Platform :** PC for now (Switch and Steam deck planned){{< br >}}
+**Duration :** 4 months {{< br >}}
+**Team size :** 10 {{< br >}}
+**Role :** Gameplay, System & UI Programmer, Tech Artist
+
 ## Pitch
 
 12 Abroad St. is a text based RPG
 
 ## Technical overview
 
-### Languages used
 
-This project was created using **Unity**  and therefore used **C#** as well as **HLSL**.
+
+### The ASCII shader
+
+### The Git workflow
+
+Git is the backbone of the project and keep it cleaned organized is one of  
+
+{{< figure
+    src="images/git_workflow.jpg"
+    alt="Diagram of the git workflow"
+    caption="The Git workflow we use"
+    class="width-100"
+    containerClass="width-80 center-img"
+    >}}
+
+## Gallery
 
 ## The team
 

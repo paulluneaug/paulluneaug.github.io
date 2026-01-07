@@ -8,23 +8,51 @@ tags: ['Unity', 'C#', 'Arduino', 'Electronics']
 publishDate: 2025-09-02
 ---
 
+### Overview
+
+**Platform :** PC {{< br >}}
+**Duration :** 5 days {{< br >}}
+**Team size :** 10 {{< br >}}
+**Role :** Electronics, Gameplay Programmer
+
+
 ## Pitch 
 
 Popo Deglingo was a temporary physical installation set for an accessibility workshop. We were tasked with making a game playable by visualy impared people, and this is what we made :
 
-![Picture of the installation](images/installation.jpg)
+{{< figure
+    src="images/installation.jpg"
+    alt="Picture of the installation"
+    class="width-100"
+    containerClass="width-60 center-img"
+    >}}
 
 In Popo Delingo you play as an aspiring alchimist taking care of their master's shop during their absence, which mean receiving clients and preparing the potions they are asking.
 
-![Picture of the screen with the grimoire](images/grimoire.jpg)
+{{< figure
+    src="images/grimoire.jpg"
+    alt="Picture of the secondary screen with the grimoire"
+    class="width-100"
+    containerClass="width-60 center-img"
+    >}}
 
 When asked for making a potion you can check its recipee in your grimory, giving you clues about its ingredients, which can be how they smell, or how the recipient their in feel when touched.
 
-![Picture of all the textured bottles](images/bottles.jpg)
+{{< figure
+    src="images/bottles.jpg"
+    alt="Picture of all the textured bottles"
+    class="width-100"
+    containerClass="width-60 center-img"
+    >}}
 
 Then you have to pickup the right ingredients, each potion being composed of three of the twelve available. Place them on the pedestals in front of the client to validate the potion, before receiving your next client.
 
-![Drawing of a customer](images/customer.png)
+{{< figure
+    src="images/customer.png"
+    alt="Drawing of a customer"
+    class="width-100"
+    containerClass="width-60 center-img"
+    >}}
 
 The goal is to satisfy the most clients possible in 5 minutes, after which the game end, your master coming back home.
 

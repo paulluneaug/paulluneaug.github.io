@@ -9,6 +9,13 @@ tags: ['C++', 'CMake', 'SFML', 'ImGui', 'Physics and collisions']
 publishDate: 2025-07-15
 ---
 
+### Overview
+
+**Platform :** PC {{< br >}}
+**Duration :** 4 weeks {{< br >}}
+**Team size :** 1 {{< br >}}
+**Role :** Engine Programmer
+
 ## Project description
 
 SDF Physics is the support I developped to illustrate and test algorithms for a dissertation I made at the end af my first year of JMIN master's degree about [Signed Distance Fields](https://en.wikipedia.org/wiki/Signed_distance_function) (SDFs).
@@ -19,7 +26,12 @@ The main goal was to try to detect overlaps between :
 - SDFs and triangles
 - SDFs and other SDFs.
 
-![Trigangle GradientDescent](assets/Trigangle_GradientDescent.png)
+{{< figure
+    src="assets/Trigangle_GradientDescent.png"
+    alt="Trigangle GradientDescent"
+    class="width-100"
+    containerClass="width-60 center-img"
+    >}}
 
 ## Technical overview
 

@@ -4,30 +4,48 @@ title: "A New Machinist"
 cover: /images/projects/covers/ANewMachinist.png
 alt: "A New Machinist cover"
 description: " "
-tags: ['Unity', 'C#', 'C++', 'C', 'UI', 'Tools', 'Arduino', 'Electronics']
+tags: ['Unity', 'C#', 'C++', 'C', 'Arduino', 'Electronics', 'UI', 'Tools']
 highlight: true
 publishDate: 2025-03-01
 ---
 
-![Installation](images/Installation.jpg)
+### Overview
+
+**Platform :** PC {{< br >}}
+**Duration :** 3 months {{< br >}}
+**Team size :** 8 (and 2 additional persons) {{< br >}}
+**Role :** Electronics, Gameplay, UI and Tool Programmer
+
+{{< figure
+    src="images/Installation.jpg"
+    alt="Installation"
+    class="center-img width-60"
+    >}}
 
 ## Presentation
 
-A New Machinist is a game we created as a **team of eight** plus the help of two as part of our **final project** for our first year of master's degree.
-
-In this game, you play the role of a puppeteer candidate at a puppet theatre. Learn how to use your console to control the stage and follow the director's instructions or improvise based on the elements you give him.
+Play the role of a puppeteer candidate at a puppet theatre. Learn how to use your console to control the stage and follow the director's instructions or improvise based on the elements you give him.
 
 The original experience is played with a **physical console** that we built. It features no less than 17 buttons, 9 switches, 3 rotary encoders, 3 potentiometers, 4 faders (one of which is motorised) and 22 LED indicators!
 
-![Gameplay](images/Gameplay.jpg)
+{{< figure
+    src="images/Gameplay.jpg"
+    alt="Gameplay"
+    class="width-100"
+    containerClass="width-60 center-img"
+    >}}
 
 ## Technical overview
 
-For this project, I was in charge of :
+For this project, my duties were :
 
-- Crafting the console and interfacing it with Unity
-- Programming the UI and some of the gameplay elements
+- **Crafting the console** and interfacing it with Unity using a custom protocol (electronics, soldering, wiring, wood and metal working)
+- Implementing the User Interface and making it fully navigable using only 3 buttons
+- Implementing multiple interaction with the objects on the stage (boxes dropping items, moving set, lights, curtains...)
 - Helping to implement the dialogue and act integration tool
+- Integrating the artists assets (UI, 3D models, animations...)
+- Being responsible for the **Git workflow** to prevent any major conflicts
+- Working with the sound designer to add hooks in the code to trigger audio events
 
 ### Languages used
 
@@ -35,18 +53,28 @@ This project was created using **Unity** and therefore used **C#** as well as **
 
 ### The console
 
-![A picture of the console](images/Console.jpg)
+{{< figure
+    src="images/Console.jpg"
+    alt="A picture of the console"
+    class="width-100"
+    containerClass="width-60 center-img"
+    >}}
 
-One of the main challenge in this project was to craft from scratch a working console and to connect it with Unity as I had very little experience with elecronics and never had to use that many components.
+One of the main challenge in this project was to craft from scratch a working console and to connect it with Unity as I had very little experience with elecronics and had never use that many components.
 
 The whole circuit is built arround an [**Arduino Due board**](https://docs.arduino.cc/hardware/due/) that has 66 pins for us to use, a lot more than the average Arduino. Still, it wasn't quite enough for all the components we wanted to control so I had to make a clever usage of **multiplexers** to be able to connect even more components.
 
 I had also did not anticipate that **power would become an issue** (for the LEDs especially) as my previous projects were a lot smaller and the board could easily power all the components on its own. {{< br >}}
-For this project, the board does not power any LED but instead controls **transisors** that let the current of an **external power source** flow. 
+For this project, **the board does not power any LED** but instead controls **transisors** that let the current of an **external power source** flow. 
 
-The finished console works quite well thanks to the time I put into it, but I hope I never have to fix the mess underneath.
+The finished console works quite well thanks to the time I put into it, but I hope I never have to fix the mess underneath it.
 
-![A picture of the bottom of the box, with wires everywhere](images/Console_Bottom.jpg)
+{{< figure
+    src="images/Console_Bottom.jpg"
+    alt="A picture of the bottom of the box, with wires everywhere"
+    class="width-100"
+    containerClass="width-60 center-img"
+    >}}
 
 ## The team
 
