@@ -22,13 +22,41 @@ publishDate: 2025-10-01
 
 ## Technical overview
 
+For this project, my duties are :
 
+- Implementing and architecturing the **interaction system**, trying to make it as **extensible** as possible 
+- Developping tools to **import and edit the tables**
+- Building and integrating the **UI** of the game
+- Helping our tech artist create the **ASCII shader**
+- Integrating assets (UI, animations, VFXs, )
+- Proposing and enforcing **coding standards** to ensure consistency in the source code
+- Reviewing code and pull requests on GitHub to make sure the project stays clean
+- Planning and estimating all the programming tasks to be able to anticipate and make sure the scope is achievable
 
 ### The ASCII shader
 
+The game really focuses on writing and text and we didn't want the player to focus too much on the illustrations. This two pillars led us to use ASCII art for the illustration to make them "fuzzy".
+
+But instead of making each illustration by hand, we chose to use a **shader to transform the output of a camera into an ASCII illustration**.
+
 ### The Git workflow
 
-Git is the backbone of the project and keep it cleaned organized is one of  
+Git is one of our most important tools, and using it properly can prevent many problems (data loss, conflicts, ...).
+
+That is why we decided to impement a Git workflow based on pull request so that the assets and code that end up in the main branch are always tested reviewed.
+
+Let's say you start the Jira task "UI Integration" with the ID "TAS-12", the workflow proceeds as follows : 
+
+- Create a branch from the `main` branch named `TAS-12_UI_Integration`
+- Commits in this branch until the task in completed
+- Merge the `develop` branch in yours
+- Create a pull request to `develop`
+- Someone else reviews and tests the changes made
+- If everything is approved by the reviewer, they can merge the pull request
+- **At the end of each sprint** (about 2 weeks), a **build** is made on `develop` and tested
+- If everything still works, the `develop` branch is merged in `main`
+
+This also allows us to have a version that is **always playable** on the `main` branch.
 
 {{< figure
     src="images/git_workflow.jpg"

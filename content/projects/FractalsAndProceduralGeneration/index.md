@@ -37,7 +37,8 @@ For this part of the project, I implemented :
 
 {{< figure
     src="images/chunk.png"
-    alt="A screenshot of the game with a submarine in a subarine cave like environment"
+    alt="A screenshot of the mesh of a chunk"
+    caption="A generated chunk"
     class="width-100"
     containerClass="width-60 center-img"
     >}}

@@ -17,12 +17,20 @@ publishDate: 2024-01-01
 
 ## About the game
 
+**NeomarsXIII** takes you to a neo-futuristic Marseille, called Neo-Massilia. You play as a rookie **pétanque** player. Explore the city and fight some of the best pétanque players controlling the place in a game of futuristic pétanque, now enhanced with new rules !
+
 ## Technical overview
 
-My duties were :
+For this game, I was the lead programmer (insofar as one can speak of a lead programmer in the context of a student project) and my duties were :
 
+- Creating and maintaining the overall architecture of the game, while ensuring that the code for each phase of gameplay is as separate as possible
+- Implementing the petanque gameplay loop
+- Creating an opposing player that could aim precisely at targets
+- Integrating assets (sounds, animations, UI, 3D assets...)
 - Proposing and enforcing coding standards to ensure consistency in the source code
-- Reviewing code and pull requests on Git to make sure the project stays clean
+- Reviewing code and pull requests on GitHub to make sure the project stays clean
+- Helping the other programmers of the project
+- Assisting with VFXs and shaders
 
 ### Opponent player
 
@@ -38,9 +46,9 @@ My duties were :
 
 - **Yannis ARIBOT** - 3D & VFX artist
 - **Florent BASCOUL** - Game designer
-- **Jordan BURNET** - UI artist & Sound designer
-- **Victor DE SENNEVILLE** - Project manager
-- **Paul LUNEAU** - Programmer
+- **Jordan BURNET** - UI artist, Sound designer & Additional Programmer
+- **Victor DE SENNEVILLE** - Project manager & Additional Programmer
+- **Paul LUNEAU** - Lead Programmer
 - **Joris PINEDA** - Game & Level designer
 - **Élodie PRUDENT** - Narrative designer
 
