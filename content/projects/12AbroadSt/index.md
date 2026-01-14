@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 title: '12 Abroad St.'
 cover: /images/projects/covers/12AbroadSt.jpg
 alt: "12 Abroad St. cover with the game logo"
@@ -12,19 +12,26 @@ publishDate: 2025-10-01
 ### Overview
 
 **Platform :** PC for now (Switch and Steam deck planned){{< br >}}
-**Duration :** 4 months {{< br >}}
+**Duration :** October 2025 - now{{< br >}}
 **Team size :** 10 {{< br >}}
 **Role :** Gameplay, System & UI Programmer, Tech Artist
 
-## Pitch
+## Presentation
 
-12 Abroad St. is a text based RPG
+12 Abroad St. is an **experimental textual adventure** game inspired by retro textual RPGs with a strong ASCII art style. Play as Charlie and explore your hometown by going from location to location, each represented by it’s own illustration and textual description.
+
+{{< figure
+    src="images/game_screenshot.png"
+    alt="A screenshot of the game interface"
+    class="width-100"
+    containerClass="width-80 center-img"
+    >}}
 
 ## Technical overview
 
 For this project, my duties are :
 
-- Implementing and architecturing the **interaction system**, trying to make it as **extensible** as possible 
+- Implementing and architecturing the **interaction system**, trying to make it as **extensible** as possible to anticipate future requirements
 - Developping tools to **import and edit the tables**
 - Building and integrating the **UI** of the game
 - Helping our tech artist create the **ASCII shader**
@@ -37,13 +44,32 @@ For this project, my duties are :
 
 The game really focuses on writing and text and we didn't want the player to focus too much on the illustrations. This two pillars led us to use ASCII art for the illustration to make them "fuzzy".
 
-But instead of making each illustration by hand, we chose to use a **shader to transform the output of a camera into an ASCII illustration**.
+But instead of making each illustration by hand, we chose to use a combination of **shaders to transform a 3D scene view into an ASCII illustration**.
+
+Those shaders allows us to iterate much faster because we can :
+
+- move the camera as much as we want
+- add animations easily
+- play with the lights
+- add or move each object of the scene 
+
+without having to recreate all the illustrations.
+
+{{< figure
+    src="images/ascii_eye.jpg"
+    alt="An image of an eye in the opening of a door and the same image after the ASCII shader post process"
+    caption="The scene view with and without the ASCII shader"
+    class="width-100"
+    containerClass="width-80 center-img"
+    >}}
+
+
 
 ### The Git workflow
 
-Git is one of our most important tools, and using it properly can prevent many problems (data loss, conflicts, ...).
+Git is one of our most important tools, and using it properly can prevent many problems (data loss, conflicts ...).
 
-That is why we decided to impement a Git workflow based on pull request so that the assets and code that end up in the main branch are always tested reviewed.
+That is why we decided to impement a Git workflow based on pull request to make sure that all the assets and code that end up in the main branch are always tested reviewed.
 
 Let's say you start the Jira task "UI Integration" with the ID "TAS-12", the workflow proceeds as follows : 
 
