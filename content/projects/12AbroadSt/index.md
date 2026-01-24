@@ -18,7 +18,11 @@ publishDate: 2025-10-01
 
 ## Presentation
 
-12 Abroad St. is an **experimental textual adventure** game inspired by retro textual RPGs with a strong ASCII art style. Play as Charlie and explore your hometown by going from location to location, each represented by it’s own illustration and textual description.
+12 Abroad St. is a **text-based RPG** that draws from micro-computer RPG games, almost entirely consisting of **interface**.
+
+You play as someone who has to reluctantly **attend a high school reunion party** in their childhood city. They **rediscover these streets** they were sure to remember, **getting lost** while trying to find their way to the 12 Abroad St, where the party is happening.
+
+**Actions and choices rely on using, finding, discarding or combining verbs**, which are collected through exploration, just like items. It’s an invitation to **reflect on language**, discrepancy and on the **search for meaning and identity** in a world that does not always make sense.
 
 {{< figure
     src="images/game_screenshot.png"
@@ -42,7 +46,7 @@ For this project, my duties are :
 
 ### The ASCII shader
 
-The game really focuses on writing and text and we didn't want the player to focus too much on the illustrations. This two pillars led us to use ASCII art for the illustration to make them "fuzzy".
+The game really focuses on writing and text and we didn't want the player to focus too much on the illustrations. This two pillars led us to use ASCII art for the illustrations to make them "fuzzy".
 
 But instead of making each illustration by hand, we chose to use a combination of **shaders to transform a 3D scene view into an ASCII illustration**.
 
@@ -91,8 +95,6 @@ This also allows us to have a version that is **always playable** on the `main` 
     class="width-100"
     containerClass="width-80 center-img"
     >}}
-
-## Gallery
 
 ## The team
 
