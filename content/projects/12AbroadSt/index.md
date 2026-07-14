@@ -14,9 +14,9 @@ publishDate: 2025-10-01
 **Platform :** PC for now (Switch and Steam deck planned){{< br >}}
 **Duration :** October 2025 - now{{< br >}}
 **Team size :** 10 {{< br >}}
-**Role :** Gameplay, System & UI Programmer, Tech Artist
+**Role :** Gameplay, Tools & UI Programmer, Tech Artist
 
-## Presentation
+## About the game
 
 12 Abroad St. is a **text-based RPG** that draws from micro-computer RPG games, almost entirely consisting of **interface**.
 
@@ -24,24 +24,27 @@ You play as someone who has to reluctantly **attend a high school reunion party*
 
 **Actions and choices rely on using, finding, discarding or combining verbs**, which are collected through exploration, just like items. It’s an invitation to **reflect on language**, discrepancy and on the **search for meaning and identity** in a world that does not always make sense.
 
-{{< figure
-    src="images/game_screenshot.png"
-    alt="A screenshot of the game interface"
-    class="width-100"
-    containerClass="width-80 center-img"
-    >}}
+    
+{{< gallery >}}
+  <img src="images/game_screenshot_0.jpg" class="grid-w50" alt="A screenshot of the game interface" />
+  <img src="images/game_screenshot_1.jpg" class="grid-w50" alt="A screenshot of the game interface" />
+{{< /gallery >}}
+
+## Trailer
+
+{{< youtube LKDqPLq711s >}}
 
 ## Technical overview
 
 For this project, my duties are :
 
 - Implementing and architecturing the **interaction system**, trying to make it as **extensible** as possible to anticipate future requirements
-- Developping tools to **import and edit the tables**
+- Developping multiple tools to **import data** from CSVs, **create documentation** and **ensure the stability of the project**
 - Building and integrating the **UI** of the game
 - Helping our tech artist create the **ASCII shader**
 - Integrating assets (UI, animations, VFXs, )
 - Proposing and enforcing **coding standards** to ensure consistency in the source code
-- Reviewing code and pull requests on GitHub to make sure the project stays clean
+- **Reviewing code** and pull requests on GitHub to make sure the project stays clean
 - Planning and estimating all the programming tasks to be able to anticipate and make sure the scope is achievable
 
 ### The ASCII shader
