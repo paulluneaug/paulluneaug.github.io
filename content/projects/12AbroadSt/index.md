@@ -29,6 +29,8 @@ You play as someone who has to reluctantly **attend a high school reunion party*
   <img src="images/game_screenshot_1.jpg" class="grid-w50" alt="A screenshot of the game interface" />
 {{< /gallery >}}
 
+Although it started out as a school project, we are continuing to work on it and plan to publish it in the future.
+
 ## Trailer
 
 {{< youtube LKDqPLq711s >}}
@@ -71,9 +73,24 @@ without having to recreate all the illustrations.
 
 ### The tools
 
+Very early on, we knew we wanted to keep working on this project after the school was over. So we invested time in making the developpement smoother by creating tools.
+
 #### Importers
 
 #### Documentation
+
+At the core of the interaction system are what we call `ActionComponents`, small bits of code that can be triggered during interactions and make small changes to the state of the game.
+For example, we have a `PrintTextAction` that prints text on the screen. 
+
+The problem is that there are now quite a few of them (29 at the time of writing) and it can become pretty difficult to remember all of them and exactly what they do.
+To remedy this,  we’ve created a custom editor window that retrives all `ActionComponents` and their descriptions (from a custom attribute) and displays this data clearly. It is also able to export those in a Markdown file if required.
+
+{{< figure
+    src="images/action_components_documentation_window.png"
+    alt="A screenshot of the tool window, with a list of action components and their description"
+    class="width-100"
+    containerClass="width-80 center-img"
+    >}}
 
 #### Poly Counter
 
