@@ -13,7 +13,7 @@ publishDate: 2025-10-01
 
 **Platform :** PC for now (Switch and Steam deck planned){{< br >}}
 **Duration :** October 2025 - now{{< br >}}
-**Team size :** 10 {{< br >}}
+**Team size :** 9 {{< br >}}
 **Role :** Gameplay, Tools & UI Programmer, Tech Artist
 
 ## About the game
@@ -24,7 +24,6 @@ You play as someone who has to reluctantly **attend a high school reunion party*
 
 **Actions and choices rely on using, finding, discarding or combining verbs**, which are collected through exploration, just like items. It’s an invitation to **reflect on language**, discrepancy and on the **search for meaning and identity** in a world that does not always make sense.
 
-    
 {{< gallery >}}
   <img src="images/game_screenshot_0.jpg" class="grid-w50" alt="A screenshot of the game interface" />
   <img src="images/game_screenshot_1.jpg" class="grid-w50" alt="A screenshot of the game interface" />
@@ -70,7 +69,15 @@ without having to recreate all the illustrations.
     containerClass="width-80 center-img"
     >}}
 
+### The tools
 
+#### Importers
+
+#### Documentation
+
+#### Poly Counter
+
+#### Sanity checker
 
 ### The Git workflow
 
